@@ -1,4 +1,13 @@
-.button {
+html, body {
+        margin: 0;
+        padding: 0;
+}
+
+.right {
+        float: right;
+}
+
+.btn {
         width: 100px;
         border: 1px solid black;
         display: inline-block;
@@ -11,15 +20,31 @@
         font-weight: 200;
 }
 
-.button:hover {
+.btn-see-thru {
+        opacity: 0.5;
+}
+
+.btn-white {
+        background-color: white;
+
+}
+
+.btn:hover {
         background: white;
         color: green;
+        opacity: 1;
 }
 
-.right {
-        float: right;
-}
-
-.button-green {
+.headline {
         background-color: green;
+        width: 100%;
+        text-align: center;
+}
+
+.headline h1 {
+        text-align: center;
+        font-size: 48px;
+        color: white;
+        padding: 80px;
+        margin: 0;
 }
