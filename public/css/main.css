@@ -1,10 +1,54 @@
 html, body {
         margin: 0;
         padding: 0;
+        background-color: lightgray;
+}
+
+* {
+        box-sizing: border-box;
+}
+
+a {
+        text-decoration: none;
+}
+
+main {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        overflow: hidden;
+}
+
+.testbox {
+    border: 5px solid black;
+    display: flex;
+}
+
+.flexbox {
+    display: flex;
+}
+
+
+.parentbox {
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.childbox {
+    overflow: hidden;
 }
 
 .right {
         float: right;
+}
+
+.left {
+        float: left;
+}
+
+.mrg5 {
+        margin: 5px;
 }
 
 .btn {
@@ -47,4 +91,44 @@ html, body {
         color: white;
         padding: 80px;
         margin: 0;
+}
+
+.nav-container  {
+        border: 1px solid lightgray;
+        box-shadow: 5px 0px 20px gray;
+        background-color: white;
+}
+
+.nav-list {
+        text-align: center;
+        margin: 0;
+        overflow: hidden;
+}
+
+.nav-list li {
+        border-left: 1px solid lightgray;
+        display: inline-block;
+        padding: 25px;
+        text-align: center;
+        margin: auto -2px;
+}
+
+.nav-list li:last-child {
+        border-right: 1px solid lightgray;
+}
+
+.nav-list li:hover {
+        border-bottom: 3px solid green;
+}
+
+.green-tile {
+        background-color: green;
+        text-align: center;
+        width: 312px;
+        height: 383px;
+        padding: 50px;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 20px gray;
 }
