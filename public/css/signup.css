@@ -5,23 +5,30 @@ html, body {
 * {
     box-sizing: border-box;
     text-align: center;
+    margin: 0;
 }
 
 h1 {
     font-family: Ariel, sans-serif;
     margin: 0px;
-    font-weight: 300;
+    font-weight: 200;
+    text-align: left;
+    font-size: 30px;
 }
 
 .topbar {
     background: dodgerblue;
     border-bottom: 1px solid gray;
+    box-shadow: none;
     position: relative;
     display: inline-block; 
-    margin: 0px;
     width: 100%;
     height: 50px;
     color: white;
+}
+
+.grad {
+    background: linear-gradient(to right, #59adeb, #35ce95);
 }
 
 .textalign {
@@ -34,52 +41,62 @@ h1 {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 30%;
+    width: 400px;
     height: 70%;
 }
 
 .childhead {
     position: relative;
+    height:0%;
 }
 
 .childbody {
     position: relative;
-    top: 20%;
+    top: 15%;
 }
 
 .childfeet {
     width: 100%;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    top: 20%;
 }
 
 .disblock {
-    display: block;
+    display: inline-block;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border: 1px solid #e1e8ed;
     font-size:18px;
-    border-radius: 4px;
+    border-radius: 3px;
     color:gray;
-    padding: 13px;
-    width: 60%;
+    padding: 10px;
+    width: 100%;
     text-align: left;
 }
 
+p {
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-align: left;
+    line-height: 18px;
+    font-family: Arial,sans-serif;
+    color: #8899a6;
+}
+
+h5 {
+    margin-top: 15px;
+}
+
 button {
-    background: dodgerblue;
-    width: 60%;
-    border: 1px solid black;
+    background: #1da1f2;
+    width: 100%;
+    border: 1px solid #e1e8ed;
+    box-shadow: none;
     display: inline-block;
     padding: 10px;
     margin: 5px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 3px;
     text-decoration: none;
     color: white;
     font-weight: 200;
@@ -87,5 +104,10 @@ button {
 }
 
 header {
-    width: 93%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #1b95e0;
 }
