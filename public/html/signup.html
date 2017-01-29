@@ -1,1 +1,38 @@
-signup
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Login to Twitterish</title>
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="textalign">
+            <p>Language: English   Have an account? Log in!</p>
+        </div>
+    </header>
+    <div class="parentbox">
+        <header class="childhead">
+            <h1>Join Twitterish today!</h1>
+        </header>
+        <main class="childbody">
+            <form action="/login" method="GET">
+                <input id="full-name" type="text" autocomplete="off" value="" name="user[name]" maxlength="20" aria-required="true" placeholder="Full name" class="disblock"
+                />
+                <input id="email" type="text" autocomplete="off" value="" name="user[email]" aria-required="true" placeholder="Phone or Email" class="disblock">
+                <input id="password" type="password" value="" name="user[user_password]" aria-required="true" placeholder="Password" class="disblock">
+                <button type="submit">Login</button>
+            </form>
+        </main>
+        <footer class="childfeet">
+            <p>By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use. Others will be able to find you by email or phone number when provided.
+Advanced options</p>
+        </footer>
+    </div>
+</body>
+
+</html>
